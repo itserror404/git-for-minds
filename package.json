@@ -8,7 +8,8 @@
     "dev": "tsx watch src/server.ts",
     "start": "node dist/server.js",
     "setup": "npm run build && npm run init-db",
-    "init-db": "node dist/setup-db.js"
+    "init-db": "node dist/setup-db.js",
+    "vercel-build": "npm install --build-from-source"
   },
   "dependencies": {
     "express": "^4.18.2",
