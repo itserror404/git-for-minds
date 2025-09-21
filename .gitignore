@@ -1,0 +1,7 @@
+# Ignore decision agent notes
+agent.md
+
+# Ignore shadcn ui folders
+shadcn/
+shadcn-ui/
+shadcn-ui-reference/ 
